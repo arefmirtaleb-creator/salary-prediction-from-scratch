@@ -29,8 +29,8 @@ def predict_salary(years_experience, model_path):
 
 if __name__ == "__main__":
     # 5. Define dynamic path to the saved model
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    model_file = os.path.join(BASE_DIR, "models", "salary_model.pkl")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    model_file = os.path.join(BASE_DIR, "models", "salary_model.joblib")
 
     print("=== Salary Prediction CLI ===")
 

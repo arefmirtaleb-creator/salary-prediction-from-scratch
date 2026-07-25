@@ -54,6 +54,6 @@ def visualize_data_and_model(data_path, model_path):
 if __name__ == "__main__":
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_file = os.path.join(BASE_DIR, "data", "salary_data.csv")
-    model_file = os.path.join(BASE_DIR, "models", "salary_model.pkl")
+    model_file = os.path.join(BASE_DIR, "models", "salary_model.joblib")
 
     visualize_data_and_model(data_file, model_file)
