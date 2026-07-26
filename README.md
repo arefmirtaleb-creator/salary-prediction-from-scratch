@@ -7,8 +7,7 @@ This project was built as part of my machine learning practice and portfolio dev
 
 ## Live Demo
 
-🔗 **Coming soon**  
-<!-- Replace this with your deployed Streamlit app link -->
+https://salary-prediction-from-scratch-ncvhlzc6h3y5prfzmxt7qv.streamlit.app/
 
 ---
 
